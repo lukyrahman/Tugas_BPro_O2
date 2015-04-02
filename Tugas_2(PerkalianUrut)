@@ -1,0 +1,103 @@
+public class PerkalianUrut{
+  public static void main(String []args){
+    int []a=new int[11];
+    
+    a[1]=1;
+    a[2]=2;
+    a[3]=3;
+    a[4]=4;
+    a[5]=5;
+    a[6]=6;
+    a[7]=7;
+    a[8]=8;
+    a[9]=9;
+    
+    
+    int bil=0;
+    int total=1;
+    
+    int tot=1;
+    while (bil<10)
+    {
+      System.out.print("       ");
+  
+    bil++;
+    
+   if (a[1]==1)
+    {
+      tot=a[1]*bil;
+      
+      System.out.print(+a[1]+"*"+bil+"="+tot);
+      System.out.print("       ");
+      
+    
+    if (a[2]==2)
+    {
+      tot=a[2]*bil;
+      
+      System.out.print(a[2]+"*"+bil+"="+tot);
+      System.out.print("       ");
+      
+      
+    } 
+     if (a[3]==3)
+    {
+      tot=a[3]*bil;
+      
+      System.out.print(a[3]+"*"+bil+"="+tot);
+     System.out.print("    ");
+      
+      
+    }
+       if (a[4]==4)
+    {
+      tot=a[4]*bil;
+      
+      System.out.print(a[4]+"*"+bil+"="+tot);
+      System.out.print("    ");
+      
+    } 
+         if (a[5]==5)
+    {
+      tot=a[5]*bil;
+      
+      System.out.print(a[5]+"*"+bil+"="+tot);
+      System.out.print("    ");
+      
+    } 
+           if (a[6]==6)
+    {
+      tot=a[6]*bil;
+      
+      System.out.print(a[6]+"*"+bil+"="+tot);
+     System.out.print("    ");
+      
+    } 
+             if (a[7]==7)
+    {
+      tot=a[7]*bil;
+      
+      System.out.print(a[7]+"*"+bil+"="+tot);
+     System.out.print("    ");
+      
+    }
+               if (a[8]==8)
+    {
+      tot=a[8]*bil;
+      
+      System.out.print(a[8]+"*"+bil+"="+tot);
+      System.out.print("    ");
+      
+    } 
+                 if (a[9]==9)
+    {
+      tot=a[9]*bil;
+      
+      System.out.println(a[9]+"*"+bil+"="+tot);
+      System.out.print("       ");
+      
+    }
+}
+}
+  }
+}
