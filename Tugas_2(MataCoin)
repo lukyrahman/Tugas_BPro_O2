@@ -1,0 +1,64 @@
+public class MataCoin{
+  public static void main (String []args){
+    int angka=1;
+    int gambar=2;
+    int nilai;
+    int nilai1=0;
+    int nilai2=0;
+   System.out.println("Ke      |Hasil");
+     System.out.println("---------------");
+     for (int i=1; i<13; i++){
+   
+       if (i==10){
+     System.out.print(i+"      |");
+       }
+       else if (i==11){
+     System.out.print(i+"      |");
+       }
+     else if (i==12){
+     System.out.print(i+"      |");
+       }
+       
+       else
+       {
+         System.out.print(i+"       |");
+       }
+     
+     nilai = 1+(int)(Math.random()*2); 
+       if (nilai==1){
+         System.out.println("Angka");
+         nilai1++;
+         
+       }
+         else{
+           if (gambar==2)
+              System.out.println("Gambar");  
+              nilai2++;
+             
+       }
+     
+     
+     }
+     System.out.println();
+     System.out.println("Score Angka ="+ nilai1);
+     System.out.println("Score Gambar ="+nilai2);
+      if (nilai1>nilai2)
+      {
+        System.out.println();
+        System.out.println("----Angka Menang----");
+      }
+      else
+      {
+        if (nilai1<nilai2){
+          System.out.println();
+         System.out.println("----Gambar Menang----");
+        }
+      }
+      if (nilai1==nilai2)
+      {
+        System.out.println();
+       System.out.println("----Seri----");
+      }
+      
+  }
+}
