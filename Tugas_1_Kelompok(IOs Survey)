@@ -1,0 +1,62 @@
+import java.util.*;
+import java.io.*;
+
+public class tampilos 
+{
+  public static void main(String [] args)throws IOException {
+      
+   Scanner scan =new Scanner (System.in);
+   BufferedReader input = new BufferedReader (new InputStreamReader (System.in));
+
+    String jenis_os;
+    String keputusan1="Y";
+    String keputusan2="Y";
+    int i=0;
+    
+    
+     while (keputusan1.equals("Y")||keputusan1.equals("y"))
+        {
+      System.out.println("Hasil survei dari 60 orang didapat beberapa jenis OS yang di pakai");
+      System.out.println("1. Android ");
+      System.out.println("2. IOS ");
+      System.out.println("3. Windows Phone ");
+      System.out.println("3. Symbian ");
+      
+      
+    System.out.print("masukkan jenis Operating System : ");
+    jenis_os = scan.nextLine();
+    
+    if ("Android".equals(jenis_os)||"android".equals(jenis_os))
+    {
+      System.out.println("jumlah pengguna Android = 40 Orang");
+    }
+    else if ("IOS".equals(jenis_os) || "ios".equals(jenis_os))
+    {
+      System.out.println("jumlah pengguna IOS = 10 Orang");
+    }
+    else if ("Windows".equals(jenis_os) || "windows".equals(jenis_os))
+    {
+      System.out.println("jumlah pengguna Windows = 7 Orang");
+    }
+    else if ("Symbian".equals(jenis_os)||"symbian".equals(jenis_os))
+    {
+      System.out.println("jumlah pengguna Symbian = 3 Orang");
+    }
+    else
+    {
+    }
+  System.out.println("ingin mengecek lagi ? Y/T :");
+      try{
+                keputusan1 = input.readLine();
+            }catch(IOException e){
+                 System.out.println("Gagal Membaca Keyboard");
+            }
+            i++;
+        }
+     System.out.println(" Menurut hasil survey = ");
+    System.out.println(" Pengguna Android ada 24%");
+    System.out.println(" Pengguna IOS ada 6%");
+      System.out.println(" Pengguna Windows ada 4,2%");
+      System.out.println(" Pengguna Symbian ada 1,8%");
+  }
+}us
