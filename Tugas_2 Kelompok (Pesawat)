@@ -44,7 +44,7 @@ public class Pesawat{
     
     switch (masukkan){
       case 1:
-       System.out.print(" 1. Kolom kursi kanan 3 Kolom kiri 3");
+       System.out.println("1. Kolom kursi kanan 3 Kolom kiri 3");
        System.out.println("2. Terdapat 13 baris");
        System.out.println("3. Untuk VIP baris 1-2           75% > eco");
        System.out.println("4. Untuk bisnis baris 3-7       50% > eco");
@@ -99,6 +99,7 @@ public class Pesawat{
         
     }System.out.println();
    
+    
       }
         System.out.println();
          System.out.print(" Keterangan   =");
